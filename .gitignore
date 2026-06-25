@@ -1,0 +1,20 @@
+# Never commit the raw dataset or generated artifacts (too large for GitHub).
+data/raw/
+data/parquet/
+data/interim/
+data/features/
+data/models/
+# Keep the reports folder structure but ignore bulky outputs if you prefer:
+# data/reports/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Jupyter / VS Code
+.ipynb_checkpoints/
+.venv/

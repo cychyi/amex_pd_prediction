@@ -1,0 +1,4 @@
+Model,Train_AUC,Valid_AUC,Train_KS,Valid_KS,Train_Gini,Valid_Gini,Train_LogLoss,Valid_LogLoss,DiffGini_%,Overfit,Valid_RiskRanked
+LogisticRegression,0.95923,0.9579,0.78808,0.78412,0.91846,0.91581,0.2253,0.22805,0.29,False,True
+XGBoost,0.98981,0.96147,0.89507,0.79264,0.97963,0.92295,0.13171,0.21747,5.79,False,True
+LightGBM,0.98658,0.96135,0.87803,0.79386,0.97316,0.9227,0.14494,0.21753,5.18,False,True

@@ -1,0 +1,27 @@
+# Core data stack
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# Machine-learning models
+lightgbm>=4.0
+xgboost>=2.0
+
+# Deep-learning models (LSTM / GRU / Transformer)
+# On a Mac Mini M4, the default pip wheel already includes MPS (Apple GPU) support.
+# On Kaggle, torch is pre-installed with CUDA; you do not need to install it there.
+torch>=2.1
+
+# Interpretability (Objective 2) - optional, only needed for 05d --shap / --ig
+shap>=0.44
+captum>=0.7
+
+# Nice-to-have for faster local aggregation on Apple Silicon (optional)
+# polars>=0.20
+
+# Notebook + export
+jupyter>=1.0
+ipykernel>=6.0
+nbconvert>=7.0
